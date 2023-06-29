@@ -1,7 +1,7 @@
 from faker import Faker
 import random
 
-fake = Faker()
+fake = Faker("pt_BR")
 
 
 for _ in range(10_000):
